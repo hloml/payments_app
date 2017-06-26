@@ -1,4 +1,4 @@
-# Application for storing payment records:
+# Application for storing payment records
 
 ### Resources
 - *config.properties* - Settings for exchange rate to USD for currency
@@ -6,8 +6,8 @@
 
 ### Build application
 command: *mvn clean package*
-Which create jar *"target/payments_app-1.0.0.jar"* in target directory 
+Which create jar *"target/payments_app-1.0.0.jar"* in target directory
 
 ### Run application
-java -jar target/payments_app-1.0.0.jar 
+java -jar *target/payments_app-1.0.0.jar*
 There is testing file *data.txt*
